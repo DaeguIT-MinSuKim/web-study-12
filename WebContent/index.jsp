@@ -11,5 +11,6 @@
 <body>
 	<c:set var="con" value="${JndiDS.getConnection()}"></c:set>
 	<c:out value="${con}"></c:out><br>
+	<a href="boardList.do">게시판</a>
 </body>
 </html>
