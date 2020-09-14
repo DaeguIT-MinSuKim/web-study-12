@@ -27,7 +27,7 @@ $(function(){
            url:"boardWrite.do",
            cache: false,
            data: JSON.stringify(newBoard),
-           success(data){
+           success:function(data){
                alert("추가되었습니다." + data);
                window.location.href="boardList.do";
            }
